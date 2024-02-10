@@ -1,0 +1,21 @@
+.section {
+  min-height: 100dvh;
+  padding: 0 clamp(4rem, 12vw, 20rem);
+  display: grid;
+  place-content: center;
+}
+
+.section p {
+  font-size: clamp(2rem, 5vw, 8rem);
+}
+
+.section:nth-of-type(1){
+border-bottom: 1px solid #000;
+}
+.section:nth-of-type(3){
+background: yellow;
+}
+.section:nth-of-type(4){
+	background: #000;
+	color: #fff;
+}
