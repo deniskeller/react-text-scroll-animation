@@ -40,7 +40,7 @@ const Main = () => {
     const splitTypes = document.querySelectorAll('.scrollText');
     console.log('splitTypes: ', splitTypes);
 
-    splitTypes.forEach((char, i) => {
+    splitTypes.forEach((char: any, i: number) => {
       const bg = char.getAttribute('data-bg-color');
       const fg = char.getAttribute('data-fg-color');
 
